@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { WalletService } from '../../client/wallet/service';
 
+
 export function MintButton() {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
